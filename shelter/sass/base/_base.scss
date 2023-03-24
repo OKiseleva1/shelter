@@ -8,37 +8,23 @@ body {
 }
 
 h1 {
-    font-style: normal;
-    font-size: 4.4rem;
-    font-weight: 400;
-    line-height: 5.7rem;
     color: $color-light-xl;
+    @include font($height: 5.7rem, $size: 4.4rem);
 }
 
 h2 {
-    font-style: normal;
-    font-size: 3.5rem;
-    font-weight: 400;
-    line-height: 4.5rem;
+    @include font($height: 4.5rem, $size: 3.5rem);
 }
 
 h3 {
-    font-style: normal;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 2.3rem;
+    @include font($height: 2.3rem, $size: 2rem);
 }
 
 h4 {
-    font-style: normal;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.7rem;
+    @include font($height: 1.7rem, $size: 1.5rem);
 }
 
 p {
-    font-family: Arial;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 2.4rem;
+    @extend %font-add;
+    @include font($height: 2.4rem, $size: 1.5rem);
 }

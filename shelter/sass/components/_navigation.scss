@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    padding-left: 38px;
+    gap: 35px;
+    margin: 0;
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: $color-dark-small;
+}
+
+.navigation__link:first-child {
+    color: $color-light-small;
+}
+
+.navigation__link {
+    list-style: none;
+    cursor: pointer;
+    @extend %transition;
+
+    &:hover {
+        color: green;
+    }
+}

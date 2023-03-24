@@ -1,9 +1,13 @@
+@import "base/normalize";
 @import "abstracts/constants";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
 @import "base/base";
 @import "base/buttons";
 @import "layouts/wrapper";
 
 @import "components/background";
+@import "components/navigation";
 
 @import "layouts/header";
 @import "layouts/home"

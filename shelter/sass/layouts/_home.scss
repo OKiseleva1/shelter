@@ -1,5 +1,5 @@
 .home {
-    padding-top: 90px;
+    padding-top: 74px;
 }
 
 .home__wrapper {
@@ -10,4 +10,14 @@
 
 .home__content {
     padding-right: 42px;
+    padding-bottom: 40px;
+}
+
+.home__title {
+    margin: 0 0 42px;
+}
+
+.home__text {
+    padding-bottom: 64px;
+    color: $color-dark-small;
 }
