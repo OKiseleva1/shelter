@@ -1,0 +1,53 @@
+header {
+    padding-top: 30px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__title {
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 3.52rem;
+    letter-spacing: 0.06em;
+    color: $color-primary;
+    text-decoration: none;
+}
+
+.logo__subtitle {
+    font-family: Arial;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.495rem;
+    letter-spacing: 0.1em;
+    color: $color-light-xl;
+}
+
+.header__navigation {
+    padding-bottom: 16px;
+}
+
+.navigation {
+    display: flex;
+    padding-left: 38px;
+    gap: 35px;
+    margin: 0;
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: $color-dark-small;
+}
+
+.navigation__link:first-child {
+    color: $color-light-small;
+}
+
+.navigation__link {
+    list-style: none;
+    cursor: pointer;
+
+}

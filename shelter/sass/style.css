@@ -1,0 +1,144 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-style: normal;
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 5.7rem;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-style: normal;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+}
+
+h3 {
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+
+h4 {
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+p {
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.button {
+  padding: 15px 45px;
+  border-radius: 50px;
+  border: none;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  letter-spacing: 0.06em;
+  background: #F1CDB3;
+  color: #292929;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background: #FDDCC4;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.background {
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  padding-top: 30px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__title {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.52rem;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  text-decoration: none;
+}
+
+.logo__subtitle {
+  font-family: Arial;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.495rem;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.header__navigation {
+  padding-bottom: 16px;
+}
+
+.navigation {
+  display: flex;
+  padding-left: 38px;
+  gap: 35px;
+  margin: 0;
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #CDCDCD;
+}
+
+.navigation__link:first-child {
+  color: #FAFAFA;
+}
+
+.navigation__link {
+  list-style: none;
+  cursor: pointer;
+}
+
+.home {
+  padding-top: 90px;
+}
+
+.home__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__content {
+  padding-right: 42px;
+}
+
+/*# sourceMappingURL=style.css.map */
