@@ -17,3 +17,44 @@
         background: $color-primary-light;
     }
 }
+
+.button-light {
+    padding: 15px 45px;
+    border-radius: 50px;
+    border: 2px $color-primary solid;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    letter-spacing: 0.06em;
+    background: $color-light-small;
+    color: $color-dark-3xl;
+    cursor: pointer;
+    @extend %transition;
+
+    &:hover {
+        background: $color-primary-light;
+        border: 2px $color-primary-light solid;
+    }
+}
+
+.button-arrow {
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+    border: 2px $color-primary solid;
+    background-color: $color-light-small;
+    cursor: pointer;
+    @extend %transition1;
+
+    &:hover {
+        background: $color-primary-light;
+        border: 2px $color-primary-light solid;
+    }
+}
+
+.arrow {
+    display: block;
+    margin: auto;
+}

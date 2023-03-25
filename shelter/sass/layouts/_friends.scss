@@ -1,0 +1,21 @@
+.friends {
+    padding-top: 80px;
+    background: $color-light-l;
+}
+
+.friends__wrapper {
+    text-align: center;
+}
+
+.friends__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

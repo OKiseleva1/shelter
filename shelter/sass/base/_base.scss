@@ -13,6 +13,7 @@ h1 {
 }
 
 h2 {
+    color: $color-dark-l;
     @include font($height: 4.5rem, $size: 3.5rem);
 }
 
