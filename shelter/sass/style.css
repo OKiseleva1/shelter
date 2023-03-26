@@ -732,8 +732,15 @@ header {
 
 .footer-navigation {
   display: flex;
+  column-gap: 160px;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer-navigation__title {
+  margin: 0;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
