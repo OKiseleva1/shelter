@@ -530,19 +530,19 @@ p {
 }
 
 .icon_food {
-  background-image: url("./img/icons/icon-pet-food.svg");
+  background-image: url("/shelter/img/icons/icon-pet-food.svg");
   width: 60px;
   height: 60px;
 }
 
 .icon_transport {
-  background-image: url("./img/icons/icon-transportation.svg");
+  background-image: url("../shelter/img/icons/icon-transportation.svg");
   width: 60px;
   height: 60px;
 }
 
 .icon_toys {
-  background-image: url("./img/icons/icon-toys.svg");
+  background-image: url("./shelter/img/icons/icon-toys.svg");
   width: 60px;
   height: 60px;
 }
