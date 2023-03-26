@@ -46,7 +46,7 @@
     border: 2px $color-primary solid;
     background-color: $color-light-small;
     cursor: pointer;
-    @extend %transition1;
+    @extend %transition;
 
     &:hover {
         background: $color-primary-light;

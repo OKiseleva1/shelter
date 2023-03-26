@@ -1,22 +1,20 @@
-.friends {
+.help {
     padding-top: 80px;
     padding-bottom: 100px;
-    background: $color-light-l;
 }
 
-.friends__wrapper {
+.help__wrapper {
     text-align: center;
 }
 
-.friends__content {
+.help__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.slider {
+.tool {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }

@@ -415,12 +415,8 @@ ul {
   box-sizing: border-box;
 }
 
-.navigation__link, .button-light, .button {
+.navigation__link, .button-arrow, .button-light, .button {
   transition: all 0.3s ease-out;
-}
-
-.button-arrow {
-  transition: all 0.3s ease;
 }
 
 p {
@@ -526,6 +522,65 @@ p {
 .arrow {
   display: block;
   margin: auto;
+}
+
+.icon {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.icon_food {
+  background-image: url("/shelter/img/icons/icon-pet-food.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon_transport {
+  background-image: url("/shelter/img/icons/icon-transportation.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon_toys {
+  background-image: url("/shelter/img/icons/icon-toys.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon_cups {
+  background-image: url("/shelter/img/icons/icon-bowls-and-cups.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon_shampoos {
+  background-image: url("/shelter/img/icons/icon-shampoos.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon_vitamin {
+  background-image: url("/shelter/img/icons/icon-vitamins.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon_med {
+  background-image: url("/shelter/img/icons/icon-medicines.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon_collars {
+  background-image: url("/shelter/img/icons/icon-collars-leashes.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.icon_arias {
+  background-image: url("/shelter/img/icons/icon-sleeping-area.svg");
+  width: 60px;
+  height: 60px;
 }
 
 .wrapper {
@@ -644,6 +699,7 @@ header {
 
 .friends {
   padding-top: 80px;
+  padding-bottom: 100px;
   background: #F6F6F6;
 }
 
@@ -659,6 +715,74 @@ header {
 }
 
 .slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.help {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.help__wrapper {
+  text-align: center;
+}
+
+.help__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-5-colums {
+  display: flex;
+  column-gap: 120px;
+}
+
+.layout-4-colums {
+  display: flex;
+  column-gap: 120px;
+}
+
+.donation {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background: #F6F6F6;
+}
+
+.donation__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.donation__image {
+  padding-left: 143px;
+  padding-right: 30px;
+}
+
+.donation__content {
+  padding-left: 142px;
+}
+
+.footer {
+  padding-top: 40px;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
