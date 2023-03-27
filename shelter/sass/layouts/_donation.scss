@@ -6,7 +6,7 @@
 
 .donation__wrapper {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -16,5 +16,35 @@
 }
 
 .donation__content {
-    padding-left: 142px;
+    padding-right: 142px;
+}
+
+.donation__bank {
+    letter-spacing: 0.06em;
+}
+
+.donation__title {
+    margin: 0;
+    letter-spacing: 0.06em;
+}
+
+.donation__image {
+    padding-top: 11px;
+}
+
+.number {
+    letter-spacing: 0.06em;
+    margin: 0;
+}
+
+.donation__text {
+    color: $color-dark-m;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    margin: 0;
+    padding-top: 20px;
 }

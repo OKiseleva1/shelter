@@ -1,6 +1,6 @@
 .help {
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 
 .help__wrapper {
@@ -17,4 +17,15 @@
 .tool {
     display: flex;
     flex-direction: column;
+}
+
+.help__title {
+    margin: 0;
+    letter-spacing: 0.06em;
+    padding-bottom: 60px;
+}
+
+.help__text {
+    letter-spacing: 0.06em;
+    width: max-content;
 }

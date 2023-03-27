@@ -1,23 +1,31 @@
 .about {
     padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 .about__wrapper {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
 .about__content {
     padding-left: 120px;
     padding-right: 175px;
+    padding-top: 14px;
 }
 
 .about__image {
     padding-left: 175px;
 }
 
+.about__title {
+    margin: 0;
+    letter-spacing: 0.06em;
+}
 
 .about__text {
     color: $color-dark-xl;
+    margin: 0;
+    padding-top: 25px;
 }

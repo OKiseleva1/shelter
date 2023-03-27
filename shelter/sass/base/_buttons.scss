@@ -58,3 +58,23 @@
     display: block;
     margin: auto;
 }
+
+.card-button {
+    padding: 10px 15px;
+    border-radius: 9px;
+    border: none;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-style: normal;
+    background: $color-primary;
+    color: $color-dark-l;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    column-gap: 15px;
+    @extend %transition;
+
+    &:hover {
+        background: $color-primary-light;
+    }
+}

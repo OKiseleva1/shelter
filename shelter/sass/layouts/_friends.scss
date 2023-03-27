@@ -13,10 +13,36 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    row-gap: 60px;
+}
+
+.friends__title {
+    margin: 0;
+    letter-spacing: 0.06em;
+}
+
+.content__slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 53px;
 }
 
 .slider {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    column-gap: 90px;
+    padding-bottom: 25px;
+}
+
+.friends__content {
+    margin: 0;
+}
+
+.friends__text {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 31px;
+    letter-spacing: 0.06em;
 }
