@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shelter-dom</title>
     <link rel="icon" href="./img/icons/dog.png">
-    <link href="./sass/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="./sass/stylesheet.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./sass/style.css">
 </head>
 
@@ -20,10 +20,13 @@
                 </a>
                 <nav class="header__navigation">
                     <ul class="navigation">
-                        <li class="navigation__link navigation__link-selected ">About the shelter</li>
-                        <li class="navigation__link">Our pets</li>
-                        <li class="navigation__link">Help the shelter</li>
-                        <li class="navigation__link">Contacts</li>
+                        <li><a class="navigation__link navigation__link-selected " href="#footer">About the shelter</a>
+                        </li>
+                        <li><a class="navigation__link" href="pets.html">Our pets</a></li>
+                        <li><a class="navigation__link" href="#help">Help the shelter</a></li>
+                        <li>
+                            <a class="navigation__link" href="#footer">Contacts</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -94,7 +97,7 @@
             </div>
         </div>
     </section>
-    <section class="help">
+    <section class="help" id="help">
         <div class="wrapper help__wrapper">
             <div class="help__content">
                 <h2 class="help__title">How you can help <br>our shelter</h2>
@@ -164,6 +167,8 @@
                         <h3 class="help__text">Sleeping areas</h3>
                     </div>
                 </div>
+            </div>
+        </div>
     </section>
 
     <section class="donation">
@@ -174,7 +179,7 @@
                 <h4 class="donation__bank">Name of the bank / Type of bank account</h4>
                 <button class="card-button">
                     <img src="./img/icons/credit-card.svg" alt="credit-card">
-                    <h3 class="number">8380 2880 8028 8791 7435</h3>
+                    <span class="number">8380 2880 8028 8791 7435</span>
                 </button>
                 <p class="donation__text">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Maecenas a ipsum at
@@ -184,19 +189,20 @@
         </div>
     </section>
     <div class="background">
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="wrapper footer__wrapper">
                 <div class="footer-navigation">
                     <div class="footer-navigation__column">
                         <h2 class="footer-navigation__title">For questions <br>and suggestions</h2>
                         <div class="footer__list">
-                            <img src="./img/icons/icon-email.svg" class="ico_letter"><a href="mailto:email@shelter.com"
+                            <img src="./img/icons/icon-email.svg" class="ico_letter" alt="letter"><a
+                                href="mailto:email@shelter.com"
                                 class="link_letter footer-navigation__links">email@shelter.com
                             </a>
                         </div>
                         <div class="footer__list">
-                            <img src="./img/icons/icon-phone.svg" class="ico_phone"><a href="tel:+136745677554"
-                                class="link_phone footer-navigation__links">
+                            <img src="./img/icons/icon-phone.svg" class="ico_phone" alt="phone"><a
+                                href="tel:+136745677554" class="link_phone footer-navigation__links">
                                 +13 674 567 75 54
                             </a>
                         </div>
@@ -204,12 +210,12 @@
                     </div>
                     <div class="footer-navigation__column">
                         <h2 class="footer-navigation__title">We are waiting <br>for your visit</h2>
-                        <div class="footer__list"><img src="./img/icons/icon-marker.svg" class="ico_marker"><a
-                                class="footer-navigation__links" href="#"> 1 Central Street,
+                        <div class="footer__list"><img src="./img/icons/icon-marker.svg" class="ico_marker"
+                                alt="location"><a class="footer-navigation__links" href="#"> 1 Central Street,
                                 Boston <br>(entrance from the
                                 store)</a></div>
-                        <div class="footer__list"><img src="./img/icons/icon-marker.svg" class="ico_marker"><a
-                                class="footer-navigation__links" href="#"> 18 South Park,
+                        <div class="footer__list"><img src="./img/icons/icon-marker.svg" class="ico_marker"
+                                alt="location"><a class="footer-navigation__links" href="#"> 18 South Park,
                                 London </a></div>
                     </div>
                 </div>

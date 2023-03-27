@@ -419,7 +419,7 @@ ul {
   transition: all 0.3s ease-out;
 }
 
-.navigation, p {
+.navigation__link, p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -570,14 +570,18 @@ p {
   padding-left: 38px;
   gap: 35px;
   margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navigation__link {
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2.4rem;
   color: #CDCDCD;
-}
-
-.navigation__link {
-  list-style: none;
+  text-decoration: none;
   cursor: pointer;
 }
 .navigation__link:after {
@@ -830,6 +834,10 @@ header {
 .number {
   letter-spacing: 0.06em;
   margin: 0;
+  font-family: Georgia;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.3rem;
 }
 
 .donation__text {
