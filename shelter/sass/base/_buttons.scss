@@ -109,4 +109,9 @@
     line-height: 23px;
     letter-spacing: 0.06em;
     text-align: center;
+
+    &:hover {
+        background: $color-primary-light;
+        border: 2px $color-primary-light solid;
+    }
 }

@@ -577,6 +577,10 @@ p {
   letter-spacing: 0.06em;
   text-align: center;
 }
+.button-right:hover {
+  background: #FDDCC4;
+  border: 2px #FDDCC4 solid;
+}
 
 .icon {
   cursor: pointer;
