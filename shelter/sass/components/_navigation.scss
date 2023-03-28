@@ -52,3 +52,48 @@ li {
         width: 114px;
     }
 }
+
+
+.navigation__link-pets {
+    @extend %font-add;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: $color-dark-l;
+    text-decoration: none;
+    cursor: pointer;
+    @extend %transition;
+
+    &:after {
+        content: '';
+        display: block;
+        height: 3px;
+        background: $color-primary;
+        width: 0%;
+        @extend %transition-navigation;
+    }
+
+    &:hover {
+        color: $color-dark-3xl;
+
+        &:after {
+            content: '';
+            display: block;
+            height: 3px;
+            background: $color-primary;
+            width: 100%;
+        }
+    }
+}
+
+.navigation__link-selected {
+    color: $color-dark-3xl;
+
+    &:after {
+        content: '';
+        display: block;
+        height: 3px;
+        background: $color-primary;
+        width: 58px;
+    }
+}
