@@ -94,20 +94,18 @@ li {
         display: block;
         height: 3px;
         background: $color-primary;
-        width: 58px;
+        width: 114px;
     }
 }
 
 .navigation__pets-selected {
-    .navigation__link-selected {
-        color: $color-dark-3xl;
+    color: $color-dark-3xl;
 
-        &:after {
-            content: '';
-            display: block;
-            height: 3px;
-            background: $color-primary;
-            width: 58px;
-        }
+    &:after {
+        content: '';
+        display: block;
+        height: 3px;
+        background: $color-primary;
+        width: 58px;
     }
 }

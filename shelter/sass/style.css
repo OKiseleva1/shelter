@@ -677,13 +677,13 @@ li {
   display: block;
   height: 3px;
   background: #F1CDB3;
-  width: 58px;
+  width: 114px;
 }
 
-.navigation__pets-selected .navigation__link-selected {
+.navigation__pets-selected {
   color: #292929;
 }
-.navigation__pets-selected .navigation__link-selected:after {
+.navigation__pets-selected:after {
   content: "";
   display: block;
   height: 3px;
