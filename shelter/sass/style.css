@@ -670,9 +670,20 @@ li {
 }
 
 .navigation__link-selected {
-  color: #292929;
+  color: #FAFAFA;
 }
 .navigation__link-selected:after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: #F1CDB3;
+  width: 58px;
+}
+
+.navigation__pets-selected .navigation__link-selected {
+  color: #292929;
+}
+.navigation__pets-selected .navigation__link-selected:after {
   content: "";
   display: block;
   height: 3px;

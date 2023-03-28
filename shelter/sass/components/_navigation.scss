@@ -87,7 +87,7 @@ li {
 }
 
 .navigation__link-selected {
-    color: $color-dark-3xl;
+    color: $color-light-small;
 
     &:after {
         content: '';
@@ -95,5 +95,19 @@ li {
         height: 3px;
         background: $color-primary;
         width: 58px;
+    }
+}
+
+.navigation__pets-selected {
+    .navigation__link-selected {
+        color: $color-dark-3xl;
+
+        &:after {
+            content: '';
+            display: block;
+            height: 3px;
+            background: $color-primary;
+            width: 58px;
+        }
     }
 }
