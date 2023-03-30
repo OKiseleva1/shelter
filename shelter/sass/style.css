@@ -415,7 +415,7 @@ ul {
   box-sizing: border-box;
 }
 
-.navigation__link-pets, .navigation__link, .button-back, .card-button, .button-arrow, .button-light, .button {
+.navigation__link-pets, .navigation__link, .button-right, .button-back, .card-button, .button-arrow, .button-light, .button {
   transition: all 0.3s ease-out;
 }
 
@@ -567,10 +567,9 @@ p {
   border-radius: 50px;
   color: #292929;
   border: 2px solid #F1CDB3;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   cursor: pointer;
-  transition: all 0.3s ease-out;
-  font-family: Georgia;
+  font-family: "Georgia", "Times New Roman", Times, serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
@@ -956,28 +955,22 @@ header {
   padding-top: 20px;
 }
 
-.footer {
+.footer__wrapper {
   padding-top: 40px;
 }
 
-.footer__wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
 .footer-navigation {
+  margin: auto;
   display: flex;
-  column-gap: 160px;
-  align-items: center;
   justify-content: space-between;
 }
 
 .footer-navigation__column {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   padding-top: 16px;
-  row-gap: 40px;
+  padding-bottom: 60px;
 }
 
 .footer-navigation__links {
@@ -994,13 +987,26 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  column-gap: 20px;
 }
 
 .footer-navigation__title {
   margin: 0;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+}
+
+.ico_footer {
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+.footer-navigation__links > span {
+  margin: 0;
+  display: block;
+}
+
+.footer-navigation > img {
+  padding-left: 7px;
 }
 
 .logo__title-pets {

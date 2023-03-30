@@ -100,10 +100,10 @@
     border-radius: 50px;
     color: $color-dark-3xl;
     border: 2px solid $color-primary;
-    background-color: #ffffff;
+    background-color: $color-light-xl;
     cursor: pointer;
-    transition: all .3s ease-out;
-    font-family: Georgia;
+    @extend %transition;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
