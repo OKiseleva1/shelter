@@ -33,7 +33,6 @@
     align-items: center;
     justify-content: space-between;
     column-gap: 90px;
-    padding-bottom: 25px;
 }
 
 .friends__content {
@@ -56,6 +55,10 @@
     line-height: 2.2rem;
     letter-spacing: 0.06em;
     color: $color-dark-3xl;
+}
+
+.slider__content {
+    padding-bottom: 25px;
 }
 
 .slider__content:hover {

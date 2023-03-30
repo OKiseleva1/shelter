@@ -824,7 +824,6 @@ header {
   align-items: center;
   justify-content: space-between;
   column-gap: 90px;
-  padding-bottom: 25px;
 }
 
 .friends__content {
@@ -847,6 +846,10 @@ header {
   line-height: 2.2rem;
   letter-spacing: 0.06em;
   color: #292929;
+}
+
+.slider__content {
+  padding-bottom: 25px;
 }
 
 .slider__content:hover {
@@ -1038,9 +1041,9 @@ header {
   align-items: center;
   justify-content: space-between;
   column-gap: 40px;
-  row-gap: 60px;
+  row-gap: 30px;
   flex-wrap: wrap;
-  padding-bottom: 84px;
+  padding-bottom: 59px;
   padding-top: 60px;
 }
 
