@@ -858,6 +858,11 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.slider__content:hover .button-light {
+  background: #FDDCC4;
+  border: 2px #FDDCC4 solid;
+}
+
 .help {
   padding-top: 80px;
   padding-bottom: 75px;
