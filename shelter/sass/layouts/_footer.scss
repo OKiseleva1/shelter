@@ -1,11 +1,21 @@
 .footer__wrapper {
     padding-top: 40px;
+
+    @media (max-width: 1279px) {
+        padding-top: 14px;
+    }
 }
 
 .footer-navigation {
     margin: auto;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 1279px) {
+        flex-wrap: wrap;
+        padding-right: 34px;
+        padding-left: 34px;
+    }
 }
 
 .footer-navigation__column {
@@ -14,6 +24,8 @@
     flex-direction: column;
     padding-top: 16px;
     padding-bottom: 60px;
+
+
 }
 
 
@@ -51,4 +63,9 @@
 
 .footer-navigation>img {
     padding-left: 7px;
+
+    @media (max-width: 1279px) {
+        padding-right: 204px;
+        padding-left: 204px;
+    }
 }

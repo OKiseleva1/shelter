@@ -13,6 +13,10 @@
     cursor: pointer;
     @extend %transition;
 
+    @media (max-width: 1279px) {
+        margin-left: 126px;
+    }
+
     &:hover {
         background: $color-primary-light;
     }

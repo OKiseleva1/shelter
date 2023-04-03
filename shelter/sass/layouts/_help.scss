@@ -17,6 +17,13 @@
 .tool {
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 1279px) {
+        width: 170px;
+        height: 113px;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 .help__title {
@@ -28,4 +35,10 @@
 .help__text {
     letter-spacing: 0.06em;
     width: max-content;
+}
+
+.tool-long {
+    @media (min-width: 1280px) {
+        display: none;
+    }
 }
