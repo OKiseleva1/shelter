@@ -2,6 +2,10 @@
     padding-top: 80px;
     padding-bottom: 100px;
     background: $color-light-l;
+
+    @media (max-width: 1279px) {
+        padding-top: 60px;
+    }
 }
 
 .donation__wrapper {
@@ -11,7 +15,6 @@
 
     @media (max-width: 1279px) {
         flex-wrap: wrap;
-        align-content: center;
         flex-direction: column-reverse;
 
     }
@@ -24,6 +27,12 @@
 
 .donation__content {
     padding-right: 142px;
+
+    @media (max-width: 1279px) {
+        padding-right: 164px;
+        padding-left: 164px;
+        padding-bottom: 60px;
+    }
 }
 
 .donation__bank {
@@ -37,6 +46,12 @@
 
 .donation__image {
     padding-top: 11px;
+
+    @media (max-width: 1279px) {
+        padding-top: 0;
+        padding-left: 100px;
+
+    }
 }
 
 .number {
