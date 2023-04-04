@@ -17,6 +17,10 @@ h1 {
 h2 {
     color: $color-dark-l;
     @include font($height: 4.5rem, $size: 3.5rem);
+
+    @media (max-width: 767px) {
+        @include font($height: 3.25rem, $size: 2.5rem);
+    }
 }
 
 h3 {

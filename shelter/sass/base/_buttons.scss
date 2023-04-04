@@ -17,6 +17,10 @@
         margin-left: 126px;
     }
 
+    @media (max-width: 767px) {
+        margin-left: 46px;
+    }
+
     &:hover {
         background: $color-primary-light;
     }
