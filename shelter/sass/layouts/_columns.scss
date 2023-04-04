@@ -12,6 +12,14 @@
         padding-left: 39px;
         padding-right: 39px;
     }
+
+    @media (max-width: 767px) {
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .layout-4-colums {
