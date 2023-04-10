@@ -11,18 +11,44 @@
     <link rel="stylesheet" href="./sass/style.css">
 </head>
 
-<body>
+<body class="active">
+    <!-- <div class="popup block-hidden"></div>
+    <div id="popup-pets" class="popup block-hidden">
+        <div class="pets-popup-container">
+            <div class="buttom-close"></div>
+            <div id="pet-image" class="pet-image"></div>
+            <div id="pet-info" class="pet-info">
+                <p id="name" class="name"></p>
+                <div class="wrapper-type">
+                    <span id="type" class="type"></span>
+                    -
+                    <span id="breed" class="breed"></span>
+                </div>
+                <p id="description" class="description"></p>
+                <ul class="wrapper-pet-text">
+                    <li><span class="pet-text">Age:</span> <span id="age" class="age"></span></li>
+                    <li><span class="pet-text">Inoculations:</span> <span id="inoculations" class="inoculations"></span>
+                    </li>
+                    <li><span class="pet-text">Diseases:</span> <span id="diseases" class="diseases"></span></li>
+                    <li><span class="pet-text">Parasites:</span> <span id="parasites" class="parasites"></span></li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
     <div class="background">
         <header class="header">
             <div class="wrapper header__wrapper">
                 <a href="#" class="logo__title">Cozy House
                     <p class="logo__subtitle">Shelter for pets in Boston</p>
                 </a>
-                <span class="header__hamburger hamburger"><span class="hamburger__line"></span></span>
-                <nav class="header__navigation">
+                <div class="burger-menu-btn active">
+                    <span class="header__hamburger hamburger"><span class="hamburger__line"></span></span>
+                </div>
+                <nav class="header__navigation active">
                     <ul class="navigation">
 
-                        <li><a class="navigation__link navigation__link-selected " href="#footer">About the shelter</a>
+                        <li><a class="navigation__link" href="#footer">About the shelter</a>
                         </li>
                         <li><a class="navigation__link" href="our_pets.html">Our pets</a></li>
                         <li><a class="navigation__link" href="#help">Help the shelter</a></li>
@@ -32,6 +58,7 @@
                     </ul>
                 </nav>
             </div>
+            <div class="dark-backgroung active"></div>
         </header>
 
         <section class="home">
@@ -264,6 +291,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
