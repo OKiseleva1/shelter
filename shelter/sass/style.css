@@ -438,6 +438,14 @@ body {
   font-family: "Georgia", "Times New Roman", Times, serif;
 }
 
+body.active {
+  overflow: hidden;
+}
+
+html.active {
+  overflow: hidden;
+}
+
 h1 {
   color: #FFFFFF;
   font-size: 4.4rem;
@@ -674,6 +682,40 @@ p {
   left: 0;
 }
 
+.burger-menu-btn {
+  z-index: 10;
+  transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .burger-menu-btn.active {
+    transform-origin: center;
+    transform: translate(7px, 8px) rotate(90deg);
+    transition: 0.5s ease-in-out;
+  }
+}
+.dark-backgroung {
+  transition: 0.5s ease-in-out;
+}
+
+.dark-backgroung.active {
+  opacity: 0.6;
+  background-color: #292929;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .burger-menu-btn.active {
+    transform-origin: center;
+    transform: translate(7px, 8px) rotate(90deg);
+    transition: 0.5s ease-in-out;
+  }
+}
 .background {
   background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
   border: 1px solid #000000;
@@ -782,6 +824,31 @@ li {
   }
 }
 
+.header__navigation.active {
+  transition: 0.5s;
+  right: 0;
+  top: 0;
+}
+
+.header__navigation.active > .navigation {
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .header__navigation {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 100%;
+    text-align: center;
+    background-color: #292929;
+    z-index: 8;
+    transition: 0.5s;
+  }
+}
 .wrapper {
   max-width: 1200px;
   margin: auto;
